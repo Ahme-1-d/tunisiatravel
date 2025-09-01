@@ -6,7 +6,7 @@ import { ArrowLeft, Send, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
-
+ 
 // Update ChatMessage interface to match actual table schema
 interface ChatMessage {
   chat_id: string;
