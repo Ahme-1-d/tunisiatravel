@@ -58,7 +58,7 @@ const ChatPage = () => {
     const pollInterval = setInterval(async () => {
       try {
         console.log('Polling for messages...');
-        const response = await fetch(`http://localhost:3001/api/chat/${chatId}/messages`);
+        const response = await fetch(`https://tunisiatravelserver.onrender.com/api/chat/${chatId}/messages`);
         console.log('Poll response status:', response.status);
         
         if (response.ok) {
